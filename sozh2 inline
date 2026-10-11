@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ақпараттық қауіпсіздік мамандығының 2-курс студентінің сандық визиткасы.">
+    <meta name="keywords" content="визитка, веб-бағдарламалау, ақпараттық қауіпсіздік, HTML5, CSS">
+    <meta name="author" content="Толстунова Алтынай Дэрьяевна">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Сандық визитка — Inline Style — Толстунова Алтынай Дэрьяевна</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" type="image/png">
+
+    <meta property="og:title" content="Сандық визитка — Толстунова Алтынай Дэрьяевна">
+    <meta property="og:description" content="Web бағдарламалау сабағында жасалған сандық визитка сайты.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?w=600">
+    <meta property="og:type" content="website">
+</head>
+<body style="font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f7f6; color: #be1818;">
+
+    <header style="background: #ed9bd0; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(251, 46, 203, 0.1);">
+        <h1 style="color: #2c3e50;">Толстунова Алтынай Дэрьяевна</h1>
+        <h3 style="color: #2c3e50;">2-курс студенті | 6B06301 Ақпараттық қауіпсіздік</h3>
+        <img src="g:\Мой диск\delete\айм.jpeg" alt="Студенттің профиль суреті" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+    </header>
+
+    <section style="background: #ed9bd0; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(251, 46, 203, 0.1);">
+        <h2 style="color: #2c3e50;">Өзім туралы</h2>
+        <p>Сәлем! Мен Ақпараттық қауіпсіздік мамандығында оқимын. Веб-технологиялар, киберқауіпсіздік және бағдарламалау бағыттарына қызығамын.</p>
+        
+        <h3 style="color: #2c3e50;">Негізгі дағдыларым</h3>
+        <ul>
+            <li>HTML5 / CSS3 негіздері</li>
+            <li>Python / C++ бағдарламалау</li>
+            <li>Желілік қауіпсіздік негіздері</li>
+            <li>Linux операциялық жүйесімен жұмыс</li>
+        </ul>
+    </section>
+
+    <section style="background: #ed9bd0; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(251, 46, 203, 0.1);">
+        <h2 style="color: #2c3e50;">Сабақ кестесі (3-семестр)</h2>
+        <table style="border-collapse: collapse; width: 100%; margin-top: 10px;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #e2dfe0; color: #d4044d;">Апта күні</th>
+                    <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #e2dfe0; color: #d4044d;">Уақыты</th>
+                    <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #e2dfe0; color: #d4044d;">Пән атауы</th>
+                    <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #e2dfe0; color: #d4044d;">Форматы</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Дүйсенбі</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">09:00 - 10:20</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Web бағдарламалауға кіріспе</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Дәріс</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Сәрсенбі</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">10:30 - 11:50</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Ақпараттық қауіпсіздік негіздері</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Практика</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Жұма</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">12:00 - 13:20</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Операциялық жүйелер қауіпсіздігі</td>
+                    <td style="border: 1px solid #ddd; padding: 10px; text-align: left;">Зертханалық</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer style="background: #ed9bd0; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(251, 46, 203, 0.1);">
+        <p>Байланыс және профильдер:</p>
+        <p>Сыртқы сілтеме: <a href="https://github.com/goldmoon979-art" target="_blank" rel="noopener noreferrer" style="color: #2980b9; text-decoration: none; font-weight: bold;">Менің GitHub профилім</a></p>
+    </footer>
+
+</body>
+</html>
